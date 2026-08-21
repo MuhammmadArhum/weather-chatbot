@@ -3,7 +3,7 @@ import requests
 import streamlit as st
 from groq import Groq
 
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-120b"
 
 # ------------------------------------------------------------------------------
 # 1. Weather Tool Function & Schema Definition
